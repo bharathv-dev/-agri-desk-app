@@ -13,15 +13,15 @@ export const cropCategories: CropCategory[] = [
 
 export const cropsData: Crop[] = [
     // FOOD CROPS - Cereals
-    { id: 'crop-1', nameEnglish: 'Paddy', nameTamil: 'நெல்', category: 'Food Crops', subcategory: 'Cereals', image: require('../assets/crops/paddy.png') },
-    { id: 'crop-2', nameEnglish: 'Maize', nameTamil: 'மக்காச்சோளம்', category: 'Food Crops', subcategory: 'Cereals', image: require('../assets/crops/maize.png') },
-    { id: 'crop-3', nameEnglish: 'Sorghum (Jowar)', nameTamil: 'சோளம்', category: 'Food Crops', subcategory: 'Cereals', image: require('../assets/crops/sorghum.png') },
-    { id: 'crop-4', nameEnglish: 'Pearl Millet (Bajra)', nameTamil: 'கம்பு', category: 'Food Crops', subcategory: 'Cereals', image: require('../assets/crops/pearl_millet.png') },
-    { id: 'crop-5', nameEnglish: 'Finger Millet (Ragi)', nameTamil: 'கேழ்வரகு', category: 'Food Crops', subcategory: 'Cereals', image: require('../assets/crops/finger_millet.png') },
-    { id: 'crop-6', nameEnglish: 'Wheat', nameTamil: 'கோதுமை', category: 'Food Crops', subcategory: 'Cereals', image: require('../assets/crops/wheat.png') },
+    { id: 'crop-1', nameEnglish: 'Paddy', nameTamil: 'நெல்', category: 'Food Crops', subcategory: 'Cereals', image: require('../assets/crops/paddy.jpg') },
+    { id: 'crop-2', nameEnglish: 'Maize', nameTamil: 'மக்காச்சோளம்', category: 'Food Crops', subcategory: 'Cereals', image: require('../assets/crops/maize.jpg') },
+    { id: 'crop-3', nameEnglish: 'Sorghum (Jowar)', nameTamil: 'சோளம்', category: 'Food Crops', subcategory: 'Cereals', image: require('../assets/crops/sorghum.jpg') },
+    { id: 'crop-4', nameEnglish: 'Pearl Millet (Bajra)', nameTamil: 'கம்பு', category: 'Food Crops', subcategory: 'Cereals', image: require('../assets/crops/pearl_millet.jpg') },
+    { id: 'crop-5', nameEnglish: 'Finger Millet (Ragi)', nameTamil: 'கேழ்வரகு', category: 'Food Crops', subcategory: 'Cereals', image: require('../assets/crops/finger_millet.jpg') },
+    { id: 'crop-6', nameEnglish: 'Wheat', nameTamil: 'கோதுமை', category: 'Food Crops', subcategory: 'Cereals', image: require('../assets/crops/wheat.jpg') },
 
     // FOOD CROPS - Pulses
-    { id: 'crop-7', nameEnglish: 'Black Gram (Urad)', nameTamil: 'உளுந்து', category: 'Food Crops', subcategory: 'Pulses', image: require('../assets/crops/black_gram.png') },
+    { id: 'crop-7', nameEnglish: 'Black Gram (Urad)', nameTamil: 'உளுந்து', category: 'Food Crops', subcategory: 'Pulses', image: require('../assets/crops/black_gram.jpg') },
     { id: 'crop-8', nameEnglish: 'Green Gram (Moong)', nameTamil: 'பயறு', category: 'Food Crops', subcategory: 'Pulses' },
     { id: 'crop-9', nameEnglish: 'Red Gram (Tur)', nameTamil: 'துவரை', category: 'Food Crops', subcategory: 'Pulses' },
     { id: 'crop-10', nameEnglish: 'Bengal Gram (Chana)', nameTamil: 'கடலைப்பருப்பு', category: 'Food Crops', subcategory: 'Pulses' },
@@ -33,22 +33,22 @@ export const cropsData: Crop[] = [
     { id: 'crop-14', nameEnglish: 'Sweet Potato', nameTamil: 'சர்க்கரைவள்ளிக்கிழங்கு', category: 'Food Crops', subcategory: 'Tubers' },
 
     // CASH CROPS
-    { id: 'crop-15', nameEnglish: 'Sugarcane', nameTamil: 'கரும்பு', category: 'Cash Crops', image: require('../assets/crops/sugarcane.png') },
-    { id: 'crop-16', nameEnglish: 'Cotton', nameTamil: 'பருத்தி', category: 'Cash Crops', image: require('../assets/crops/cotton.png') },
+    { id: 'crop-15', nameEnglish: 'Sugarcane', nameTamil: 'கரும்பு', category: 'Cash Crops', image: require('../assets/crops/sugarcane.jpg') },
+    { id: 'crop-16', nameEnglish: 'Cotton', nameTamil: 'பருத்தி', category: 'Cash Crops', image: require('../assets/crops/cotton.jpg') },
     { id: 'crop-17', nameEnglish: 'Tobacco', nameTamil: 'புகையிலை', category: 'Cash Crops' },
     { id: 'crop-18', nameEnglish: 'Jute', nameTamil: 'சணல்', category: 'Cash Crops' },
 
     // OILSEED CROPS
-    { id: 'crop-19', nameEnglish: 'Groundnut', nameTamil: 'நிலக்கடலை', category: 'Oilseed Crops', image: require('../assets/crops/groundnut.png') },
+    { id: 'crop-19', nameEnglish: 'Groundnut', nameTamil: 'நிலக்கடலை', category: 'Oilseed Crops', image: require('../assets/crops/groundnut.jpg') },
     { id: 'crop-20', nameEnglish: 'Sesame (Gingelly)', nameTamil: 'எள்', category: 'Oilseed Crops' },
-    { id: 'crop-21', nameEnglish: 'Sunflower', nameTamil: 'சூரியகாந்தி', category: 'Oilseed Crops', image: require('../assets/crops/sunflower.png') },
+    { id: 'crop-21', nameEnglish: 'Sunflower', nameTamil: 'சூரியகாந்தி', category: 'Oilseed Crops', image: require('../assets/crops/sunflower.jpg') },
     { id: 'crop-22', nameEnglish: 'Castor', nameTamil: 'ஆமணக்கு', category: 'Oilseed Crops' },
-    { id: 'crop-23', nameEnglish: 'Coconut', nameTamil: 'தேங்காய்', category: 'Oilseed Crops', image: require('../assets/crops/coconut.png') },
+    { id: 'crop-23', nameEnglish: 'Coconut', nameTamil: 'தேங்காய்', category: 'Oilseed Crops', image: require('../assets/crops/coconut.jpg') },
     { id: 'crop-24', nameEnglish: 'Safflower', nameTamil: 'குசும்பா', category: 'Oilseed Crops' },
 
     // HORTICULTURAL CROPS - Vegetables
-    { id: 'crop-25', nameEnglish: 'Tomato', nameTamil: 'தக்காளி', category: 'Horticultural Crops', subcategory: 'Vegetables', image: require('../assets/crops/tomato.png') },
-    { id: 'crop-26', nameEnglish: 'Onion', nameTamil: 'வெங்காயம்', category: 'Horticultural Crops', subcategory: 'Vegetables', image: require('../assets/crops/onion.png') },
+    { id: 'crop-25', nameEnglish: 'Tomato', nameTamil: 'தக்காளி', category: 'Horticultural Crops', subcategory: 'Vegetables', image: require('../assets/crops/tomato.jpg') },
+    { id: 'crop-26', nameEnglish: 'Onion', nameTamil: 'வெங்காயம்', category: 'Horticultural Crops', subcategory: 'Vegetables', image: require('../assets/crops/onion.jpg') },
     { id: 'crop-27', nameEnglish: 'Brinjal (Eggplant)', nameTamil: 'கத்தரிக்காய்', category: 'Horticultural Crops', subcategory: 'Vegetables' },
     { id: 'crop-28', nameEnglish: 'Okra (Ladiesfinger)', nameTamil: 'வெண்டைக்காய்', category: 'Horticultural Crops', subcategory: 'Vegetables' },
     { id: 'crop-29', nameEnglish: 'Cabbage', nameTamil: 'முட்டைக்கோஸ்', category: 'Horticultural Crops', subcategory: 'Vegetables' },
@@ -58,8 +58,8 @@ export const cropsData: Crop[] = [
     { id: 'crop-33', nameEnglish: 'Beetroot', nameTamil: 'பீட்ரூட்', category: 'Horticultural Crops', subcategory: 'Vegetables' },
 
     // HORTICULTURAL CROPS - Fruits
-    { id: 'crop-34', nameEnglish: 'Banana', nameTamil: 'வாழை', category: 'Horticultural Crops', subcategory: 'Fruits', image: require('../assets/crops/banana.png') },
-    { id: 'crop-35', nameEnglish: 'Mango', nameTamil: 'மாம்பழம்', category: 'Horticultural Crops', subcategory: 'Fruits', image: require('../assets/crops/mango.png') },
+    { id: 'crop-34', nameEnglish: 'Banana', nameTamil: 'வாழை', category: 'Horticultural Crops', subcategory: 'Fruits', image: require('../assets/crops/banana.jpg') },
+    { id: 'crop-35', nameEnglish: 'Mango', nameTamil: 'மாம்பழம்', category: 'Horticultural Crops', subcategory: 'Fruits', image: require('../assets/crops/mango.jpg') },
     { id: 'crop-36', nameEnglish: 'Guava', nameTamil: 'கொய்யா', category: 'Horticultural Crops', subcategory: 'Fruits' },
     { id: 'crop-37', nameEnglish: 'Papaya', nameTamil: 'பப்பாளி', category: 'Horticultural Crops', subcategory: 'Fruits' },
     { id: 'crop-38', nameEnglish: 'Sapota (Chikoo)', nameTamil: 'சப்போட்டா', category: 'Horticultural Crops', subcategory: 'Fruits' },
@@ -68,15 +68,15 @@ export const cropsData: Crop[] = [
     { id: 'crop-41', nameEnglish: 'Grapes', nameTamil: 'திராட்சை', category: 'Horticultural Crops', subcategory: 'Fruits' },
 
     // HORTICULTURAL CROPS - Flowers
-    { id: 'crop-42', nameEnglish: 'Jasmine', nameTamil: 'மல்லிகை', category: 'Horticultural Crops', subcategory: 'Flowers', image: require('../assets/crops/jasmine.png') },
+    { id: 'crop-42', nameEnglish: 'Jasmine', nameTamil: 'மல்லிகை', category: 'Horticultural Crops', subcategory: 'Flowers', image: require('../assets/crops/jasmine.jpg') },
     { id: 'crop-43', nameEnglish: 'Rose', nameTamil: 'ரோஜா', category: 'Horticultural Crops', subcategory: 'Flowers' },
     { id: 'crop-44', nameEnglish: 'Marigold', nameTamil: 'செம்பருத்தி', category: 'Horticultural Crops', subcategory: 'Flowers' },
     { id: 'crop-45', nameEnglish: 'Chrysanthemum', nameTamil: 'சாமந்தி', category: 'Horticultural Crops', subcategory: 'Flowers' },
     { id: 'crop-46', nameEnglish: 'Tuberose', nameTamil: 'செண்பகம்', category: 'Horticultural Crops', subcategory: 'Flowers' },
 
     // HORTICULTURAL CROPS - Spices
-    { id: 'crop-47', nameEnglish: 'Turmeric', nameTamil: 'மஞ்சள்', category: 'Horticultural Crops', subcategory: 'Spices', image: require('../assets/crops/turmeric.png') },
-    { id: 'crop-48', nameEnglish: 'Chilli', nameTamil: 'மிளகாய்', category: 'Horticultural Crops', subcategory: 'Spices', image: require('../assets/crops/chilli.png') },
+    { id: 'crop-47', nameEnglish: 'Turmeric', nameTamil: 'மஞ்சள்', category: 'Horticultural Crops', subcategory: 'Spices', image: require('../assets/crops/turmeric.jpg') },
+    { id: 'crop-48', nameEnglish: 'Chilli', nameTamil: 'மிளகாய்', category: 'Horticultural Crops', subcategory: 'Spices', image: require('../assets/crops/chilli.jpg') },
     { id: 'crop-49', nameEnglish: 'Coriander', nameTamil: 'கொத்தமல்லி', category: 'Horticultural Crops', subcategory: 'Spices' },
     { id: 'crop-50', nameEnglish: 'Ginger', nameTamil: 'இஞ்சி', category: 'Horticultural Crops', subcategory: 'Spices' },
     { id: 'crop-51', nameEnglish: 'Garlic', nameTamil: 'பூண்டு', category: 'Horticultural Crops', subcategory: 'Spices' },
@@ -84,8 +84,8 @@ export const cropsData: Crop[] = [
     { id: 'crop-53', nameEnglish: 'Pepper', nameTamil: 'மிளகு', category: 'Horticultural Crops', subcategory: 'Spices' },
 
     // PLANTATION CROPS
-    { id: 'crop-54', nameEnglish: 'Tea', nameTamil: 'தேயிலை', category: 'Plantation Crops', image: require('../assets/crops/tea.png') },
-    { id: 'crop-55', nameEnglish: 'Coffee', nameTamil: 'காபி', category: 'Plantation Crops', image: require('../assets/crops/coffee.png') },
+    { id: 'crop-54', nameEnglish: 'Tea', nameTamil: 'தேயிலை', category: 'Plantation Crops', image: require('../assets/crops/tea.jpg') },
+    { id: 'crop-55', nameEnglish: 'Coffee', nameTamil: 'காபி', category: 'Plantation Crops', image: require('../assets/crops/coffee.jpg') },
     { id: 'crop-56', nameEnglish: 'Rubber', nameTamil: 'ரப்பர்', category: 'Plantation Crops' },
     { id: 'crop-57', nameEnglish: 'Cashew', nameTamil: 'முந்திரி', category: 'Plantation Crops' },
     { id: 'crop-58', nameEnglish: 'Arecanut', nameTamil: 'பாக்கு', category: 'Plantation Crops' },
